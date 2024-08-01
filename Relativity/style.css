@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.header {
+    background-image: url("asset/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+}
+
+.logo strong {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.bi-list {
+    margin-left: 5px;
+    font-size: 15px;
+
+}
+
+.banner {
+    padding: 120px 0 160px 0px;
+}
+
+.banner div {
+    background-color: #3dc5ad;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.banner .para {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 200;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: white;
+}
+
+.header a {
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.container {
+    background-image: url('./assets/bg.jpg');
+}
+
+.actions {
+    padding: 42px 14px 14px;
+    background-color: #eceaea;
+    color: #3f3f3f;
+}
+
+.intro {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.intro::before {
+    content: '';
+    display: inline-block;
+    width: 6.5rem;
+    height: 0.25rem;
+    margin: 0 0 1.5rem 0;
+    border-radius: 4px;
+    background-color: #3dc5ad;
+}
+
+.container h2 {
+    font-size: 21px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container img {
+    width: 100%;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+.card-item {
+    padding: 28px;
+    font-size: 14px;
+}
+
+.card-item span {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #3dc5ad;
+    font-weight: 700;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.card-item h3 {
+    /* margin-bottom: 14px; */
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.para {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #3f3f3f;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #3dc5ad;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.btn i {
+    padding-left: 10px;
+}
+
+.cards-container {
+    padding: 45px 14px 14px;
+}
+
+.cards-container article {
+    margin-bottom: 28px;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.cards-container h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.cards-container img {
+    border-radius: 100%;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.middle {
+    background-color: #292f33;
+    color: #ffffff;
+    padding: 50px 5px 14px;
+}
+
+.middle p {
+    color: #fff;
+}
+
+.middle img {
+    margin-bottom: 25px;
+}
+
+.get-in-touch {
+    padding: 50px 5px 14px;
+    text-align: center;
+    background-color: #f0ecec;
+}
+
+.forms {
+    padding: 0 18px;
+}
+.forms.btn{
+    margin: 40px;
+}
+
+.input-field {
+    padding: 14px;
+    width: 268px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.input-field:hover {
+    border: 2px solid;
+    border-color: #3dc5ad;
+}
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    line-height: 2;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.footer-icons {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.footer-icons li {
+    display: inline-block;
+    padding: 4px;
+}
