@@ -214,9 +214,6 @@ a {
 .forms {
     padding: 0 18px;
 }
-.forms.btn{
-    margin: 40px;
-}
 
 .input-field {
     padding: 14px;
@@ -231,6 +228,7 @@ a {
     border: 2px solid;
     border-color: #3dc5ad;
 }
+
 .footer {
     text-align: center;
     padding: 40px 0;
