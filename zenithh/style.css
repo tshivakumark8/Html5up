@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner,
+.carousel-item img {
+    width: 99vw;
+    height: 90vh;
+
+}
+
+.carousel-inner h1 {
+    padding-top: 120px;
+}
+
+.span-head {
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.custom-bg {
+    background-color: #e27563
+}
+
+.custom-background-color {
+    background-color: rgb(42 48 55 0.75) height: 100%;
+    width: 100%;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.para {
+    color: rgb(192 196 202);
+}
+
+.custom-card-section {
+    background-color: #e27563
+}
+
+.bi {
+    font-size: 40px;
+    background-color: white;
+    border-radius: 50%;
+    width: 5rem;
+    padding: 9px;
+    margin: 0 auto;
+    color: #e27563;
+    margin-bottom: 25px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 100;
+    ;
+}
+
+.card-img-top img {
+    height: 200px;
+    width: 200px;
+}
+
+.button-bg {
+    background-color: white;
+    font-size: 20px;
+}
+
+.button-bg-one {
+    color: white;
+    font-size: 20px;
+    border: 2px solid #e68a7a;
+    margin-left: 15px;
+
+}
+
+.custom-bg-article {
+    background-color: #f7f7f7
+}
+
+.custom-para-one {
+    color: #464c78;
+    font-weight: 100;
+}
+
+.button-bg-two {
+    background-color: #e27563;
+    color: white;
+    font-size: 15px;
+    border: 2px solid #e68a7a;
+    margin-left: 15px;
+}
+
+.custom-border {
+    border: 10px solid white;
+}
+
+.custom-card-one {
+    width: 45%;
+}
+
+.custom-card-two {
+    width: 70%
+}
+
+.custom-border-one {
+    border: 10px solid gainsboro;
+}
+
+
+
+.descertion {
+    background-color: #2a3037;
+}
+
+
+
+/* .para-one {
+    background-color: #2a3037;
+    border: 1px solid white;
+} */
+
+.information {
+    width: 100%;
+}
+.bi-house-fill,
+.bi-envelope-fill,
+.bi-telephone-fill,
+.bi-chat-fill {
+    color: white;
+    font-size: 22px;
+    padding: 12px;
+    background-color: #e27563;
+    margin-right: 10px;
+}
+.custom-margin {
+    margin-left: 200px;
+}
