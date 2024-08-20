@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nx Docs Navbar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <span class="event-info"><b>Monorepo World: October 7, 2024</b></span>
+            <a href="#" class="join-link">Join us!</a>
+            <hr>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="nx-logo">Nx</span> DOCS
+            </div>
+            <input type="text" class="search" placeholder="Search">
+            <button class="shortcut">Ctrl K</button>
+            <ul class="menu">
+                <li>Features</li>
+                <li>Solutions</li>
+                <li>Docs</li>
+                <li>Blog</li>
+                <li>CI Pricing</li>
+                <li>Resources</li>
+            </ul>
+            <div class="secondary">
+                <span class="span"><a href="#">Contact</a></span>
+                <button class="go-to-app">Go to app</button><br>
+            </div><br>
+
+        </nav>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><strong>GETTING STARTED</strong></li>
+                <li><a href="#">Intro to Nx</a></li>
+                <li><a href="#">Installation</a></li>
+                <li><a href="#">Why Nx?</a></li>
+                <li><a href="#">Editor Setup</a></li>
+                <li><span><a href="#">TUTORIALS></a></span></li>
+                <li><strong>FEATURES</strong></li>
+                <li><a href="#">Run Tasks</a></li>
+                <li><a href="#">Cache Task Results</a></li>
+                <li><a href="#">Explore Your Workspace</a></li>
+                <li><a href="#">Generate Code</a></li>
+                <li><a href="#">Automate Updating Dependencies</a></li>
+                <li><a href="#">Enforce Module Boundaries</a></li>
+                <li><a href="#">Manage Releases</a></li>
+                <li><span><a href="#">CI FEATURES></a></span></li>
+                <li><span><a href="#">CONCEPTS></a></span></li>
+                <li><span><a href="#">RECIPIES></a></span></li>
+                <li><span><a href="#">SHOW CASE</a></span></li>
+                <li><span><a href="#">Nx with your favorite tech></a></span></li>
+                <li><span><a href="#">BENCHMARK></a></span></li>
+                <li><strong>REFERENCE</strong></li>
+                <li><a href="#">Commands</a></li>
+                <li><a href="#">Nx Configuration</a></li>
+                <li><a href="#">Project Configuration</a></li>
+                <li><a href="#">Inputs and Named Inputs</a></li>
+                <li><a href="#">.nxignore</a></li>
+                <li><a href="#">Environment Variables</a></li>
+                <li><a href="#">Glossary</a></li>
+                <li><a href="#">Releases</a></li>
+                <li><strong>Troubleshooting</strong></li>
+
+            </ul>
+        </nav>
+
+        <main class="content">
+            <h1>Intro to Nx</h1>
+            <p>
+                Nx is a powerful open-source build system that provides tools and techniques for enhancing developer
+                productivity, optimizing CI performance, and maintaining code quality. <a href="#">Check out our
+                    video</a> to learn more about what Nx is about.
+            </p>
+            <h2>Core Features</h2>
+            <ul>
+                <li><strong>Run Tasks Efficiently:</strong> Nx <a href="#">runs tasks in parallel</a> and orders the
+                    tasks based on the dependencies between them.</li>
+                <li><strong>Distribute Tasks in CI:</strong> Nx scales your CI by <a href="#">distributing tasks</a>
+                    across many VMs. Your CI is fast no matter how big your repository is.</li>
+                <li><strong>Cache Locally & Remotely:</strong> With <a href="#">local</a> and <a href="#">remote
+                        caching</a>, Nx prevents unnecessary re-runs of tasks, saving you valuable dev time.</li>
+                <li><strong>Split E2E Tests and Rerun Flaky Tests:</strong> Nx <a href="#">automatically splits</a>
+                    large e2e tests to distribute them across VMs. Nx can also automatically <a href="#">identify and
+                        rerun flaky e2e tests.</a></li>
+                <li><strong>Automate Dependency Updates:</strong> If you leverage <a href="#">Nx plugins</a> you gain
+                    additional features such as <a href="#">code generation</a> and automatically upgrading your
+                    codebase and dependencies.</li>
+                <!-- Add more content as needed -->
+            </ul>
+            <div class="container1">
+                <div class="title">Try Nx Yourself!</div>
+
+                <div class="commands">
+                    <div class="command">
+                        <pre>npx create-nx-workspace</pre>
+                    </div>
+                    <div class="command">
+                        <pre>npx nx init</pre>
+                    </div>
+                </div>
+
+                <div class="recipes">
+                    <p>Also, here are some recipes that give you more details based on the technology stack you're
+                        using:</p>
+
+                    <div class="recipe-options">
+                        <div class="recipe">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodTbpdv5M0LKcYH2chm_CzAU64LkL2uVb7g&s"
+                                alt="Monorepo Icon">
+                            <div class="recipe-title">Add to Existing Monorepo</div>
+                        </div>
+                        <div class="recipe">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhwAQSJ1W8eZJTR9FB_T_2JUrOSYM1pCyihQ&s"
+                                alt="Nx Icon">
+                            <div class="recipe-title">Add to Any Project</div>
+                        </div>
+                        <div class="recipe">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmKO2JKpkkbsTm7NNPmmV-wkZADH6FYM2UkA&s"
+                                alt="Angular Icon">
+                            <div class="recipe-title">Migrate from Angular CLI</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="browse-more">
+                    <a href="#">Browse more →</a>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="title">Learn Nx</div>
+                <div class="learn-cards">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfBZHbLwYfsRD1xf8aA_Jo56MSUfJONBmVw&s"
+                            alt="Nx Icon">
+                        <div class="card-type">VIDEO</div>
+                        <div class="card-title">Nx in 10 minutes!</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24Wvs8ZVIMICbdHxXJ24ZVmVcbiBQE5oJdg&s"
+                            alt="Nx Cloud Icon">
+                        <div class="card-type">VIDEO</div>
+                        <div class="card-title">What is Nx Cloud?</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0chBAujz_ywTGJm9XJbRQIU9bZP8qQycrIQ&s"
+                            alt="PNPM Monorepos Icon">
+                        <div class="card-type">VIDEO</div>
+                        <div class="card-title">PNPM Monorepos with Nx</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDNolzoTdG8D59gnKUe0CIR4PtMt54QEfFg&s"
+                            alt="YouTube Icon">
+                        <div class="card-type">VIDEO</div>
+                        <div class="card-title">More On YouTube</div>
+                    </div>
+                    <div class=" card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MdRse4QHH4NyH41wleZK8ktW1zR-F0tMMw&s"
+                            alt="NPM Workspaces Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">NPM Workspaces</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s"
+                            alt="React Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">Single React App</div>
+                    </div>
+                    <div class=" card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyjoJ_WJ8cx3ZuX9o_nrTYyxJEvoBwUjh4Q&s"
+                            alt="React Monorepo Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">React Monorepo</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExunAqhxmfg796XH0iQ4PfqL06pWZZkgFyg&s"
+                            alt="TypeScript Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">Single Vue App</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwUXD17prFtnvxtGWIzQ6wiktS2AzY0RRo6w&s"
+                            alt="Docker Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">Single Angular App</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdkiG4aat7Bty4xJMxYAW16J4EqBiMbX3AA&s"
+                            alt="Angular Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">Angular Monorepo</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZY7pSp8vUlxBODPl3S4YYzsx0Ht-sB7EkQ&s"
+                            alt="Node.js Icon">
+                        <div class="card-type">TUTORIAL</div>
+                        <div class="card-title">Gardle Monorepo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container3">
+                <h1>Pick Your Stack!</h1>
+                <div class="grid">
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQvyxHTyaHk7RSel7GnePC1CkHqlo6_SlWng&s"
+                            alt="Express">
+                        <p>Express</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR18b4GbU8VzbtJ48KifFLmAVE1VvrkfKi8vA&s"
+                            alt="Vue">
+                        <p>Vue</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnq142ZJiNBc4gP-49JwqVJLiJ8gaXTr91Nw&s"
+                            alt="Next">
+                        <p>Next</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS87C_CqUfam4_THwhdUOCUF3miiKQoWsYSOA&s"
+                            alt="Nuxt">
+                        <p>Nuxt</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOW8dJIWuL8rkIWugVrhwFzAv4YwAQHjYAg&s"
+                            alt="Nest">
+                        <p>Nest</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyRznY8RwQd9TqrlmrRGv8BPZOzP6N3YmLzQ&s"
+                            alt="Remix">
+                        <p>Remix</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2d1mfeOROFGa-U8XEP-wABRXJlNlTyKRPFQ&s"
+                            alt="Expo">
+                        <p>Expo</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                            alt="React Native">
+                        <p>React Native</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PKlFNOXat0NuDHqqD0LXDwwljYJr-Gla1w&s"
+                            alt="Fastify">
+                        <p>Fastify</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6b-Mo1jo4o2aZYN-IyZjv8Ie7drm_ZYHbYA&s"
+                            alt="Svelte">
+                        <p>Svelte</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3WoFZ_zn16qYATA52CoqS2-l9Dqar0zTTsA&s"
+                            alt="Solid">
+                        <p>Solid</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwpTRHvq_sycdjd8-dSbIVsqHlI_zEdKxnQ&s"
+                            alt="Lit">
+                        <p>Lit</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxk9pViATYbZh7-6zdWiIlJYdLnH-vL6lryA&s"
+                            alt="Astro">
+                        <p>Astro</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncQYDwx3K0m3rv8ItNEdpa18-8eSfjevdbg&s"
+                            alt="Qwik">
+                        <p>Qwik</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/rust_94773.png" alt="Rust">
+                        <p>Rust</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgbJEjeT4suwsLjXPvGnL39EHnYI0PUJKKw&s"
+                            alt="Go">
+                        <p>Go</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/free-dot-net-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-2-pack-company-brand-logos-icons-2878482.png"
+                            alt=".NET">
+                        <p>.NET</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO2wSRgkeVMlnDyGSuhZnZrnfl5YmpeKWZZw&s"
+                            alt="Cypress">
+                        <p>Cypress</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://playwright.dev/img/playwright-logo.svg" alt="Playwright">
+                        <p>Playwright</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4XOdTwDFjrNDoRbCH2vDqCNCKD9u8zVr_g&s"
+                            alt="Vite">
+                        <p>Vite</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0RTYNf3r3eymX_4jraQCCdAsVpN7jORMXDQ&s"
+                            alt="Storybook">
+                        <p>Storybook</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVHvcHdCZ5wDs4VPy3uI3Ls6w8U8CatO-Ug&s"
+                            alt="Jest">
+                        <p>Jest</p>
+                    </div>
+                    <div class="item">
+                        <img src="" alt="Rspack">
+                        <p>Rspack</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>Connect With Us</h2>
+                <p>Connect on our channels and with the Nx Community to ask questions, get help and keep up to date with
+                    the latest news.</p>
+                <ul class="bottomlist">
+                    <li>Join our <a href="#">Discord Community</a></li>
+                    <li>Subscribe to our <a href="#">Youtube Channel</a></li>
+                    <li>Follow us on <a href="#">Twitter</a></li>
+                    <li>Subscribe <a href="#">to our tech newsletter</a></li>
+                </ul>
+            </div>
+    </div>
+    </main>
+
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>
