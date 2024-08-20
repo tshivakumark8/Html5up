@@ -115,16 +115,10 @@
     background-color: #2a3037;
 }
 
-
-
-/* .para-one {
-    background-color: #2a3037;
-    border: 1px solid white;
-} */
-
 .information {
     width: 100%;
 }
+
 .bi-house-fill,
 .bi-envelope-fill,
 .bi-telephone-fill,
@@ -133,8 +127,9 @@
     font-size: 22px;
     padding: 12px;
     background-color: #e27563;
-    margin-right: 10px;
+    margin-right: 10px;
 }
+
 .custom-margin {
     margin-left: 200px;
 }
